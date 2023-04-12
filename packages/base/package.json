@@ -1,0 +1,17 @@
+{
+  "name": "@nosebit/eslint-config-base",
+  "packageManager": "yarn@3.2.1",
+  "version": "0.0.0",
+  "dependencies": {
+    "eslint-import-resolver-node": "^0.3.7",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsdoc": "^39.8.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.33.0"
+  },
+  "volta": {
+    "node": "14.19.1",
+    "yarn": "1.22.10"
+  }
+}

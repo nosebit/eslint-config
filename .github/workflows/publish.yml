@@ -1,0 +1,43 @@
+name: Publish
+on:
+  push:
+    branches:    
+      - main
+
+env:
+  PUSHER_TOKEN: ${{ secrets.PUSHER_TOKEN }}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+  
+    # https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
+    steps:
+      - name: 🔍 PUSHER_TOKEN
+        if: env.PUSHER_TOKEN == ''
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: echo "PUSHER_TOKEN=${GITHUB_TOKEN}" >> $GITHUB_ENV
+
+      - name: 🤘 Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: main
+          token: ${{ env.PUSHER_TOKEN }}
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+          registry-url: 'https://registry.npmjs.org'
+      
+      - name: Publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          PUSHER_NAME: niwibot
+        run: |
+          npm config set access public
+          git config --global user.email niwibot@nosebit.com
+          git config --global user.name niwibot
+          npx lerna publish --yes
