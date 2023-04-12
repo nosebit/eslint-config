@@ -1,9 +1,9 @@
 {
   "name": "@nosebit/eslint-config-react",
   "packageManager": "yarn@3.2.1",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "dependencies": {
-    "@nosebit/eslint-config-base": "^0.0.0",
+    "@nosebit/eslint-config-base": "^0.1.0",
     "eslint-plugin-react": "^7.32.2"
   },
   "peerDependencies": {
