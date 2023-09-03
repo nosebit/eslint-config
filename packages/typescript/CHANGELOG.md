@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/nosebit/eslint-config/compare/@nosebit/eslint-config-typescript@0.2.0...@nosebit/eslint-config-typescript@0.2.1) (2023-09-03)
+
+
+### Bug Fixes
+
+* remove @typescript-eslint/no-parameter-properties rule ([dd94fdd](https://github.com/nosebit/eslint-config/commit/dd94fdd60adb81d3176ba84c7a4c47d5e70a46a3))
+
+
+
+
+
 # [0.2.0](https://github.com/nosebit/eslint-config/compare/@nosebit/eslint-config-typescript@0.1.0...@nosebit/eslint-config-typescript@0.2.0) (2023-09-03)
 
 
