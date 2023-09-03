@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/nosebit/eslint-config/compare/@nosebit/eslint-config-base@0.1.0...@nosebit/eslint-config-base@0.2.0) (2023-09-03)
+
+
+### Features
+
+* upgrade packages ([16bb056](https://github.com/nosebit/eslint-config/commit/16bb0567199d5c0c98f62fb53ee864301f2c4de3))
+
+
+
+
+
 # 0.1.0 (2023-04-12)
 
 
