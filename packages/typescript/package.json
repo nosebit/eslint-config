@@ -1,9 +1,9 @@
 {
   "name": "@nosebit/eslint-config-typescript",
   "packageManager": "yarn@3.2.1",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "dependencies": {
-    "@nosebit/eslint-config-base": "^0.2.0",
+    "@nosebit/eslint-config-base": "^0.2.1",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "eslint-import-resolver-typescript": "^3.6.0",
