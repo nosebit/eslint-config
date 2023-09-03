@@ -376,20 +376,9 @@ module.exports = {
         },
         pathGroups: [
           {
-            pattern: "~/**",
-            group: "internal"
-          },
-          {
-            pattern: "~**",
-            group: "internal"
-          },
-          {
             pattern: "@/**",
-            group: "internal"
-          },
-          {
-            pattern: "@nosebit/**",
-            group: "external"
+            group: "internal",
+            position: "after"
           }
         ]
       }
