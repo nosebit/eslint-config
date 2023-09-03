@@ -417,15 +417,6 @@ module.exports = {
     "@typescript-eslint/no-non-null-assertion": [
       "off",
     ],
-  
-    /**
-     * Parameter properties can be confusing to those new to TypeScript as they are less explicit than other ways of declaring and initializing class members.
-     * 
-     * https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-parameter-properties.md
-     */
-    "@typescript-eslint/no-parameter-properties": [
-      "error",
-    ],
 
     /**
      * This rule extends the base eslint/no-redeclare rule. It adds support for TypeScript function overloads, and declaration merging.
