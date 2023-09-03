@@ -34,15 +34,6 @@ module.exports = {
     ],
   
     /**
-     * Enforces a consistent padding of the block description.
-     *
-     * https://github.com/gajus/eslint-plugin-jsdoc*newline-after-description
-     */
-    "jsdoc/newline-after-description": [
-      "error",
-    ],
-  
-    /**
      * Checks that types in jsdoc comments are defined. This can be used to check
      * un-imported types.
      *
