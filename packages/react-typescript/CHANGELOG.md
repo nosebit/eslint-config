@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.5](https://github.com/nosebit/eslint-config/compare/@nosebit/eslint-config-react-typescript@0.2.4...@nosebit/eslint-config-react-typescript@0.2.5) (2023-09-04)
+
+
+### Bug Fixes
+
+* allow snake_case in object keys ([528a320](https://github.com/nosebit/eslint-config/commit/528a320cbf625b21ec3e7f8cb4ca7e43a9604fe0))
+
+
+
+
+
 ## [0.2.4](https://github.com/nosebit/eslint-config/compare/@nosebit/eslint-config-react-typescript@0.2.3...@nosebit/eslint-config-react-typescript@0.2.4) (2023-09-04)
 
 
