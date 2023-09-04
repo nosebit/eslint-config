@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/nosebit/eslint-config/compare/@nosebit/eslint-config-typescript@0.2.3...@nosebit/eslint-config-typescript@0.2.4) (2023-09-04)
+
+
+### Bug Fixes
+
+* adjust more rules ([793e8be](https://github.com/nosebit/eslint-config/commit/793e8be59d60f65b95f9aa12bd50424bdbaa39a9))
+
+
+
+
+
 ## [0.2.3](https://github.com/nosebit/eslint-config/compare/@nosebit/eslint-config-typescript@0.2.2...@nosebit/eslint-config-typescript@0.2.3) (2023-09-03)
 
 **Note:** Version bump only for package @nosebit/eslint-config-typescript

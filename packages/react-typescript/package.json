@@ -1,10 +1,10 @@
 {
   "name": "@nosebit/eslint-config-react-typescript",
   "packageManager": "yarn@3.2.1",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "dependencies": {
     "@nosebit/eslint-config-react": "^0.2.1",
-    "@nosebit/eslint-config-typescript": "^0.2.3"
+    "@nosebit/eslint-config-typescript": "^0.2.4"
   },
   "peerDependencies": {
     "eslint": "^8.48.0",
