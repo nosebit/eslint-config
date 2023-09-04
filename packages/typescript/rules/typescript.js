@@ -202,7 +202,7 @@ module.exports = {
      * https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/indent.md
      */
     "@typescript-eslint/indent": [
-      "error",
+      "off",
       2,
       {
         SwitchCase: 1,
