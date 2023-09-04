@@ -47,7 +47,7 @@ module.exports = {
       },
       {
         "selector": "property",
-        "format": ["PascalCase", "camelCase"],
+        "format": ["PascalCase", "camelCase", "snake_case"],
         "leadingUnderscore": "allow"
       },
       {
