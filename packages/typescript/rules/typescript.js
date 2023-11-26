@@ -126,7 +126,7 @@ module.exports = {
       {
         "selector": "interface",
         "format": ["PascalCase"],
-        "prefix": ["I"]
+        "prefix": ["T", "I"]
       }
     ],
   
