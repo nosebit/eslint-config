@@ -1,7 +1,7 @@
 {
   "name": "@nosebit/eslint-config-base",
   "packageManager": "yarn@3.2.1",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "dependencies": {
     "eslint-import-resolver-node": "^0.3.9",
     "eslint-plugin-import": "^2.29.1",

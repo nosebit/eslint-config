@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/nosebit/eslint-config/compare/@nosebit/eslint-config-react-typescript@0.2.7...@nosebit/eslint-config-react-typescript@0.3.0) (2023-12-31)
+
+
+### Features
+
+* upgrade packages ([6a32ae4](https://github.com/nosebit/eslint-config/commit/6a32ae4a9ea08e671d5b0bf2ebde548a4d927a3e))
+
+
+### BREAKING CHANGES
+
+* Typescript upgrade.
+
+
+
+
+
 ## [0.2.7](https://github.com/nosebit/eslint-config/compare/@nosebit/eslint-config-react-typescript@0.2.6...@nosebit/eslint-config-react-typescript@0.2.7) (2023-11-26)
 
 **Note:** Version bump only for package @nosebit/eslint-config-react-typescript
