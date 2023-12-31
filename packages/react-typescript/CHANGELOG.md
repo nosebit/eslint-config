@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.2](https://github.com/nosebit/eslint-config/compare/@nosebit/eslint-config-react-typescript@0.3.1...@nosebit/eslint-config-react-typescript@0.3.2) (2023-12-31)
+
+
+### Bug Fixes
+
+* **react-typescript:** allow importing default in PascalCase as well ([2a2a413](https://github.com/nosebit/eslint-config/commit/2a2a4131708092b866d40bd811c02992965dedf9))
+
+
+
+
+
 ## [0.3.1](https://github.com/nosebit/eslint-config/compare/@nosebit/eslint-config-react-typescript@0.3.0...@nosebit/eslint-config-react-typescript@0.3.1) (2023-12-31)
 
 **Note:** Version bump only for package @nosebit/eslint-config-react-typescript
