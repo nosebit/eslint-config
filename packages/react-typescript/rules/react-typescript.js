@@ -10,6 +10,7 @@ module.exports = {
       {
         "selector": "default",
         "format": ["camelCase", "PascalCase"],
+        "leadingUnderscore": "allow"
       },
       {
         "selector": "function", // class, interface, typeAlias, enum, typeParameter
